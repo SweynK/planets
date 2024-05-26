@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 export default function Header() {
   return (
     <header>
-      <nav className="w-full h-[5.5rem]  flex justify-between  ">
-        <h1 className="text-lg px-8 py-7 text-white font-antonio">
+      <nav className="w-full h-[5.5rem]  md:flex md:justify-between  ">
+        <h1 className="text-lg text-center px-8 md:py-7 py-4 text-white font-antonio">
           THE PLANETS
         </h1>
         <div className="flex justify-between items-center gap-8 px-7">
